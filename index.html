@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora</title>
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <div id="contenedor">
+        <div id="calculadora">
+            <div id="pantalla"></div>
+            <div id="botones">
+                    <button id="limpiar" onclick="limpiar()">AC</button>
+                    <button id="borrar" onclick="borrar()">⌫</button>
+                    <button class="op" onclick="operacion(this)">+/-</button>
+                    <button class="op" onclick="operacion(this)">÷</button>
+                    <button class="num" onclick="mostrar(this)">7</button>
+                    <button class="num"onclick="mostrar(this)">8</button>
+                    <button class="num" onclick="mostrar(this)">9</button>
+                    <button class="op" onclick="operacion(this)">*</button>
+                    <button class="num" onclick="mostrar(this)">4</button>
+                    <button class="num" onclick="mostrar(this)">5</button>
+                    <button class="num" onclick="mostrar(this)">6</button>
+                    <button class="op" onclick="operacion(this)">-</button>
+                    <button class="num" onclick="mostrar(this)">1</button>
+                    <button class="num" onclick="mostrar(this)">2</button>
+                    <button class="num" onclick="mostrar(this)">3</button>
+                    <button class="op" onclick="operacion(this)">+</button>
+                    <button class="op" onclick="operacion(this)">%</button>
+                    <button class="num" onclick="mostrar(this)">0</button>
+                    <button class="op" onclick="mostrar(this)">.</button>
+                    <button id="resultado" onclick="resultado()">=</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
